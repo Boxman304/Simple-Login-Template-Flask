@@ -62,6 +62,6 @@ def authenticate():
 
     token = create_token(user_auth.id)
     return jsonify(token=token)    
-@app.route('/hello', methods=['GET'])
-def hello_world():
-    return "Hello World!"
+# @app.route('/hello', methods=['GET']) #Used in Testing
+# def hello_world():
+#     return "Hello World!"
